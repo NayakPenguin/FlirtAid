@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+body{
+  background-color: #fefdff;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  background-color: #fd5471;
+  z-index: 10;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s linear;
+  transform: translate(-100%);
+}
+
+.show-sidebar{
+  transform: translate(0%);
+}
+
+.form-check-local {
+  display: flex;
+}
+
+
+
+#file-input1{
+  display: none;
+}
+#file-input2{
+  display: none;
+}
+#file-input3{
+  display: none;
+}
+#file-input4{
+  display: none;
+}
+#file-input5{
+  display: none;
+}
